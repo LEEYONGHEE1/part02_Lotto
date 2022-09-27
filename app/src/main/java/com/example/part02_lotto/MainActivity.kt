@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             if (pickNumberSet.contains(numberPicker.value)) {
-                Toast.makeText(this, "이미 선택한 번호입니다다",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "이미 선택한 번호입니다",Toast.LENGTH_SHORT).show()
                return@setOnClickListener
             }
 
